@@ -1,0 +1,30 @@
+.suggestion-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.suggestion-item:hover{
+    color:  #64748b; 
+    cursor: pointer;
+}
+
+.suggestion-item:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.suggestion-item button {
+    width: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.suggestion-item button img {
+    width: 100%;
+}
+
+.suggestion-item .suggestion-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
